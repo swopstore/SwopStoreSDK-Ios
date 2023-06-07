@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'SwopStoreSdk_Example' do
+  pod 'SwopStoreSdk', :path => '../'
+
+  target 'SwopStoreSdk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

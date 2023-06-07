@@ -1,0 +1,6 @@
+framework module Pods_SwopStoreSdk_Example {
+  umbrella header "Pods-SwopStoreSdk_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

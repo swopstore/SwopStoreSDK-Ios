@@ -1,0 +1,16 @@
+PODS:
+  - SwopStoreSdk (0.1.0)
+
+DEPENDENCIES:
+  - SwopStoreSdk (from `../`)
+
+EXTERNAL SOURCES:
+  SwopStoreSdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwopStoreSdk: 2bf99bd14fa723ce290d4fb8c615683f2db7920d
+
+PODFILE CHECKSUM: 6fa1841223d1214254887e8349dc0af1dfe47360
+
+COCOAPODS: 1.11.3
