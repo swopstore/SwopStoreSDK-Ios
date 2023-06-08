@@ -61,7 +61,7 @@
 		7307E900E2E983913906D3737EB0BA28 /* Pods-SwopStoreSdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwopStoreSdk_Example-Info.plist"; sourceTree = "<group>"; };
 		7380469D41B0A95A2D536D00961DF998 /* Pods-SwopStoreSdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwopStoreSdk_Example.modulemap"; sourceTree = "<group>"; };
 		7695BB8F14E498B794EC34A8670783AA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7F5C47ADF6114FF7676415B3D192C2B1 /* SwopStoreSdk */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwopStoreSdk; path = SwopStoreSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5C47ADF6114FF7676415B3D192C2B1 /* SwopStoreSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwopStoreSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8128A6D9AA99F456CDC3E1E90F685830 /* Pods-SwopStoreSdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwopStoreSdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		82110296CCDB775AD64EA1BDB653EEA0 /* Pods_SwopStoreSdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwopStoreSdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B45A9B9F9929F1054E01B1F7FF165B0 /* Pods-SwopStoreSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwopStoreSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		D5519400EE7E888B3C532DC7578DA3FF /* Pods-SwopStoreSdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwopStoreSdk_Tests-dummy.m"; sourceTree = "<group>"; };
 		E40DF93C0914D1EACB9567C70F6B2FCD /* Pods-SwopStoreSdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwopStoreSdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E6DDEC7ACC2E363A02C4488ED69D04DF /* SwopStoreSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwopStoreSdk-Info.plist"; sourceTree = "<group>"; };
-		E96EAC6D650BEA7D14A1E67856D6B2FF /* Pods-SwopStoreSdk_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwopStoreSdk_Tests"; path = Pods_SwopStoreSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96EAC6D650BEA7D14A1E67856D6B2FF /* Pods_SwopStoreSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwopStoreSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F351AB5ECFAD8D32BB9085779BDF29A4 /* Pods-SwopStoreSdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwopStoreSdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FC737A5FE1D968AD3531990A129765D6 /* Pods-SwopStoreSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwopStoreSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -162,8 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				82110296CCDB775AD64EA1BDB653EEA0 /* Pods_SwopStoreSdk_Example.framework */,
-				E96EAC6D650BEA7D14A1E67856D6B2FF /* Pods-SwopStoreSdk_Tests */,
-				7F5C47ADF6114FF7676415B3D192C2B1 /* SwopStoreSdk */,
+				E96EAC6D650BEA7D14A1E67856D6B2FF /* Pods_SwopStoreSdk_Tests.framework */,
+				7F5C47ADF6114FF7676415B3D192C2B1 /* SwopStoreSdk.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -318,7 +318,7 @@
 			);
 			name = "Pods-SwopStoreSdk_Tests";
 			productName = Pods_SwopStoreSdk_Tests;
-			productReference = E96EAC6D650BEA7D14A1E67856D6B2FF /* Pods-SwopStoreSdk_Tests */;
+			productReference = E96EAC6D650BEA7D14A1E67856D6B2FF /* Pods_SwopStoreSdk_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AAC514D31854C5A030261CA91EDB7127 /* SwopStoreSdk */ = {
@@ -336,7 +336,7 @@
 			);
 			name = SwopStoreSdk;
 			productName = SwopStoreSdk;
-			productReference = 7F5C47ADF6114FF7676415B3D192C2B1 /* SwopStoreSdk */;
+			productReference = 7F5C47ADF6114FF7676415B3D192C2B1 /* SwopStoreSdk.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -461,7 +461,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwopStoreSdk/SwopStoreSdk-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwopStoreSdk/SwopStoreSdk-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwopStoreSdk/SwopStoreSdk.modulemap";
 				PRODUCT_MODULE_NAME = SwopStoreSdk;
@@ -528,7 +528,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwopStoreSdk/SwopStoreSdk-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwopStoreSdk/SwopStoreSdk-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwopStoreSdk/SwopStoreSdk.modulemap";
 				PRODUCT_MODULE_NAME = SwopStoreSdk;
@@ -560,7 +560,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwopStoreSdk_Tests/Pods-SwopStoreSdk_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwopStoreSdk_Tests/Pods-SwopStoreSdk_Tests.modulemap";
@@ -655,7 +655,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwopStoreSdk_Tests/Pods-SwopStoreSdk_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwopStoreSdk_Tests/Pods-SwopStoreSdk_Tests.modulemap";
